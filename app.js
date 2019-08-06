@@ -14,7 +14,7 @@ mongoose.connect(process.env.DATABASE, {
 }).then(() => console.log('Bookstore DB Connected'));
 
 // routes middleware
-app.use(userRoutes)
+app.use('/api',  userRoutes)
 
 const port = process.env.PORT || 8000;
 
