@@ -17,3 +17,4 @@ exports.signup = (req,res) => {
     });
   });
 };
+
